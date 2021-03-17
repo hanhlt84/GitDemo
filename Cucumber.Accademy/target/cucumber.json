@@ -1,0 +1,393 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Register with all valid value",
+        "description": "",
+        "id": "register-new-account;register-with-all-valid-value;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7029938500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Accademy Register page is opened",
+            "match": {
+              "location": "RegisterStep.accademy_register_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308625600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I input username Hanh and email test1@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hanh",
+                  "offset": 17
+                },
+                {
+                  "val": "test1@gmail.com",
+                  "offset": 32
+                }
+              ],
+              "location": "RegisterStep.i_input_username_and_email(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107589600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I input password 12345678",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterStep.i_input_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158344200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I tick on checkbox",
+            "match": {
+              "location": "RegisterStep.i_tick_on_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295499700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select Gender Female",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Female",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterStep.i_select_gender(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75133100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I choose status",
+            "match": {
+              "location": "RegisterStep.i_choose_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66418900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill DOB \u003cdob\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cdob\u003e",
+                  "offset": 11
+                }
+              ],
+              "location": "RegisterStep.i_fill_dob(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94018500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Submit button",
+            "match": {
+              "location": "RegisterStep.i_click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51141800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I register suscessfully",
+            "match": {
+              "location": "RegisterStep.i_register_suscessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Register with all valid value",
+        "description": "",
+        "id": "register-new-account;register-with-all-valid-value;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3258941500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Accademy Register page is opened",
+            "match": {
+              "location": "RegisterStep.accademy_register_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279682400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I input username Truc and email truc@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Truc",
+                  "offset": 17
+                },
+                {
+                  "val": "truc@gmail.com",
+                  "offset": 32
+                }
+              ],
+              "location": "RegisterStep.i_input_username_and_email(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93589600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I input password 123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterStep.i_input_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104937100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I tick on checkbox",
+            "match": {
+              "location": "RegisterStep.i_tick_on_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185742000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select Gender Male",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Male",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterStep.i_select_gender(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88890500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I choose status",
+            "match": {
+              "location": "RegisterStep.i_choose_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82662400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill DOB \u003cdob\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cdob\u003e",
+                  "offset": 11
+                }
+              ],
+              "location": "RegisterStep.i_fill_dob(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108535300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Submit button",
+            "match": {
+              "location": "RegisterStep.i_click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40160800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I register suscessfully",
+            "match": {
+              "location": "RegisterStep.i_register_suscessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Register with invalid value",
+        "description": "",
+        "id": "register-new-account;register-with-invalid-value;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3704523000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Accademy Register page is opened",
+            "match": {
+              "location": "RegisterStep.accademy_register_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 366994500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I input username A and email test1@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A",
+                  "offset": 17
+                },
+                {
+                  "val": "test1@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterStep.i_input_username_and_email(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38831000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I receive error message Name should be at least 2 characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name should be at least 2 characters",
+                  "offset": 24
+                }
+              ],
+              "location": "RegisterStep.i_receive_error_message(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register new account",
+    "description": "",
+    "id": "register-new-account",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]

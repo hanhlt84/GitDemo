@@ -1,0 +1,3 @@
+StepDefinitions\RegisterStep.class
+CommonFunctions\Common.class
+CucumberOptions\TestRunner.class
